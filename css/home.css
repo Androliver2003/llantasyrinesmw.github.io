@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: "montserrat", 'sans-serif';
+}
+nav {
+    background-color: rgb(17, 17, 17);
+    display: grid;
+    grid-template-columns: [x0] 25.33% [x1] 53.33% [x2] 19.33% [x3];
+    column-gap: 1%;
+    height: 50px;
+}
+
+/*Logotipo del menu de navegacion*/
+
+.nav__logo {
+    color: #fff;
+    font-size: 1.2em;
+    margin: auto 0px auto 10px;
+}
+
+/*Links de menu de navegacion*/
+
+.nav__ul {
+    margin: auto 0;
+    text-align: center;
+}
+.nav__ul-li {
+    display: inline-block;
+    margin: auto 15px;
+}
+
+.nav__links {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    font-family:'Montserrat', "sans-serif";
+}
+
+/*Icono de redes sociales del menu de navegacion*/
+
+.nav__social {
+    margin: auto 10px auto 0;
+    text-align: right;
+}
+.nav__social-links {
+    text-decoration: none;
+    margin: auto;
+}
+
+.nav__social-facebook {
+    margin: auto 8px;
+    height: 35px;
+}
+
+.nav__social-instagram {
+    margin: auto 8px;
+    height:35px;
+}
+
+/*Seccion principal*/
+
+.section__main {
+    display: inline-block;
+    background-image: url(../assents/images/main-page/section__main-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 15%;
+    background-color: #000;
+    height: 100vh;  
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+.section__main-title {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.section__main-text {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.section__main-button {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    margin: 100px;
+    font-size: 1.3em;
+    border-radius: 10%;
+    border: #fff solid;
+}
+
+/*Seccion secundaria - tireswheels*/
+
+.section__tirewheels {
+    height: 100vh;
+}
+
+.section__tirewheels-beneficios {
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 50px;
+}
+
+.tirewheels__beneficios-items {
+    flex: 1 300px;
+    display: flex;
+    color: #fff;
+}
+
+.section__tirewheels-links {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60%;
+}
+
+.section__tirewheels-tires {
+    flex: 1 400px;
+    height: 500px;
+    width: 50%;
+    background: #000;
+    background-image: url(../assents/images/main-page/section__tirewheels-backgroundtires.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.section__tirewheels-wheels {
+    flex: 1 400px;
+    height: 500px;
+    width: 50%;
+    background: #000;
+    background-image: url(../assents/images/main-page/section__tirewheels-backgroundtires.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.tirewheels__links-text {
+    color: #fff;
+}
